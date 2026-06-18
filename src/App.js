@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1 className=' bg-blue-500 font-bold'>Nafees</h1>
+      <Header/>
     </div>
   );
 }
